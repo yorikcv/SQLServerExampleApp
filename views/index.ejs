@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+		<%- include( 'layouts/head'); -%>
+  </head>
+<body>
+    <div class="container">
+        <%- include( 'layouts/navbar', {nav: "<li><a href='/books'>Books</a></li><li><a href='/authors'>Authors</a></li><li><a href='/publishers'>Publishers</a></li><li><a href='/genres'>Genres</a></li>"}); -%>
+        <h1><%= title %></h1>
+            <p>Click NavBar that to do some query to Data Base</p>
+            <p>Good Luck!</p>
+    </div>
+</body>
+
+</html>
