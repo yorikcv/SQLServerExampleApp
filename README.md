@@ -14,7 +14,7 @@ $ npm install
 $ npm install bower -g
 
 $ cd public
-$ npm install
+$ bower install
 ```
 
 Запустіть прокт з кореневої папки) 
